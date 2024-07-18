@@ -1,0 +1,14 @@
+.theme-bw,
+.theme-by {
+    font-size: 28px;
+    font-family: Helvetica, "Times New Roman", sans-serif;
+}
+
+.theme-bw {
+    background-color: black;
+    color: white;
+}
+
+.theme-by {
+    background-color: yellow;
+}
