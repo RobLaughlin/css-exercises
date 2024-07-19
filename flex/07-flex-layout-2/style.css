@@ -53,3 +53,23 @@ body {
   margin: 12px;
   width: 300px;
 }
+
+ul {
+  list-style-type: none;
+  padding-left: 8px;
+}
+
+ul>li {
+  margin-bottom: 12px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a:hover {
+  color: lightblue;
+}
