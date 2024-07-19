@@ -28,6 +28,7 @@ body {
 #CardContainer {
   display: flex;
   flex-wrap: wrap;
+  padding: 48px;
 }
 
 .footer {
@@ -43,20 +44,21 @@ body {
   min-width: 300px;
   background: royalblue;
   box-sizing: border-box;
+  padding-left: 16px;
 }
 
 .card {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
-  padding: 48px;
   margin: 12px;
   width: 300px;
+  padding: 24px;
 }
 
 ul {
   list-style-type: none;
-  padding-left: 8px;
+  padding: 0;
 }
 
 ul>li {
