@@ -121,7 +121,7 @@
 
 .nav ul {
   display: grid;
-  grid-template-columns: repeat(3, minmax(150px, 1fr));
+  grid-template-columns: repeat(3, 1fr);
   justify-content: space-evenly;
   list-style-type: none;
 }
@@ -156,3 +156,10 @@
   margin: 0 4px 4px 4px;
 }
 
+@media (width <= 750px) {
+  .header ul {
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+  }
+
+}
